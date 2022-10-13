@@ -18,9 +18,9 @@ const char* ssid = "<wifi_name>";
 const char* password = "<wifi_password>";
 
 IPAddress ip(192, 168, x, x); //edit this for new node
-IPAddress gateway(192, 168, 8, 1);
+IPAddress gateway(192, 168, x, 1);
 IPAddress subnet(255, 255, 255, 0);
-IPAddress dns(192, 168, 8, 1);
+IPAddress dns(192, 168, x, 1);
 
 const char* mqtt_server = "<mqtt_address>";
 const char* mqtt_user = "<mqtt_user>";
